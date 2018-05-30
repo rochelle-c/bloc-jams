@@ -75,11 +75,15 @@ body {
    color: rgb(233,50,117);
    background-color: white;
  }
- 
+
 .container {
      margin: 0 auto;
      max-width: 64rem;
  }
+
+ .container.narrow {
+    max-width: 56rem;
+}
 
 /* MEDIA QUERIES */
 /* Medium and small screens (640px) */
